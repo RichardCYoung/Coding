@@ -1,0 +1,3 @@
+netsh advfirewall firewall set rule name=“remote desktop - shadow (tcp-in)” new RemoteIP=“10.73.195.0/24,10.75.40.0/24,10.76.1.0/24,10.76.3.0/24"
+netsh advfirewall firewall set rule name=“remote desktop - user mode (tcp-in)” new RemoteIP=“10.73.195.0/24,10.75.40.0/24,10.76.1.0/24,10.76.3.0/24"
+netsh advfirewall firewall set rule name=“remote desktop - user mode (udp-in)” new RemoteIP=“10.73.195.0/24,10.75.40.0/24,10.76.1.0/24,10.76.3.0/24"
